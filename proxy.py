@@ -1,13 +1,18 @@
+# Eduard Znava, xznava@stuba.sk, ID: 103190
+# MTAA 2021/2022, Zadanie 1
+
+
 from twisted.protocols.sip import *
 from twisted.internet import reactor
 import socket
 import logging
 
 
-PORT = 6000
+PORT = 6000  # port, ktory pouziva proxy
 
 
 class SIPProxy(Proxy):
+    # dedime z triedy Proxy, prisposobujeme funkcionalitu zadaniu
     def __init__(self, host=None, port=PORT):
         super().__init__(host, port)
         self.accounts = {}
@@ -24,7 +29,9 @@ class SIPProxy(Proxy):
         )
         self.logger = logging.getLogger()
 
-    def change_contact_to_proxy(self, contact):
+    def change_contact(self, contact):
+        # zmena pola Contact do tvaru sip:username@user_ip:user_port
+        # kvoli plnohodnotnej funkcnosti
         contact_split = contact.split(';')
         username = parseURL(contact_split[0][1:]).username
         addr = self.accounts[username]
@@ -34,15 +41,6 @@ class SIPProxy(Proxy):
         contact_changed = ';'.join([contact_url] + contact_split[1:])
 
         return [contact_changed]
-
-    def change_ip(self, to):
-        to_split = to.split(';')
-        to_url_split = to_split[0].split('@')  # ziskame split url kontaktu
-        to_url_split[-1] = self.host
-        to_url = '@'.join(to_url_split)
-        to_changed = ';'.join([to_url] + to_split[1:])
-
-        return [to_changed]
 
     @staticmethod
     def prepare_and_parseURL(url):
@@ -60,7 +58,7 @@ class SIPProxy(Proxy):
             self.sendMessage(URL(host=self.accounts[username][0], port=self.accounts[username][1]), message)
 
     def handle_request(self, message, addr):
-        if message.method not in ['REGISTER', 'SUBSCRIBE']:
+        if message.method not in ['REGISTER', 'SUBSCRIBE']:  # zabezpecime, aby spravy chodili cez Proxy
             message.headers['Record-Route'] = ['<sip:' + self.host + ':' + str(self.port) + ';lr=on>']
         print(message.method)
         if message.method == 'REGISTER':
@@ -71,7 +69,7 @@ class SIPProxy(Proxy):
 
         elif message.method == 'INVITE':
             message.headers['Record-Route'] = ['<sip:' + self.host + ':' + str(PORT) + ';lr=on>']
-            message.headers['contact'] = self.change_contact_to_proxy(message.headers['contact'][0])
+            message.headers['contact'] = self.change_contact(message.headers['contact'][0])
             username_to = self.prepare_and_parseURL(message.headers['to'][0]).username
             if username_to not in self.accounts.keys():
                 self.deliverResponse(self.responseFromRequest(480, message))
@@ -97,8 +95,7 @@ class SIPProxy(Proxy):
                 self.logger.info(log_message, message.headers['call-id'][0], username_from, username_to)
 
         elif message.method == 'SUBSCRIBE':
-            message.headers['contact'] = self.change_contact_to_proxy(message.headers['contact'][0])
-            message.headers['to'] = self.change_ip(message.headers['to'][0])
+            message.headers['contact'] = self.change_contact(message.headers['contact'][0])
             username = self.prepare_and_parseURL(message.headers['to'][0]).username
             self.send_without_response(username, message)
 
@@ -110,21 +107,18 @@ class SIPProxy(Proxy):
             self.send_without_response(username, message)
 
         elif message.method == 'ACK':
-            # message.headers['Record-Route'] = ['<sip:' + self.host + ':' + str(self.port) + ';lr=on>']
-            # if 'route' in message.headers.keys():
-            #     del message.headers['route']
             username = self.prepare_and_parseURL(message.headers['to'][0]).username
             self.send_without_response(username, message)
 
     def handle_response(self, message, addr):
-        if message.code in [180, 200, 603, 487, 202, 486]:
-            print(message.headers)
+        if message.code != 100:   # kedze 100 posiela samotna proxy
             if message.code == 200 and 'contact' in message.headers.keys() and '@' in message.headers['contact'][0]:
-                message.headers['contact'] = self.change_contact_to_proxy(message.headers['contact'][0])
+                message.headers['contact'] = self.change_contact(message.headers['contact'][0])
             username_from = parseURL(message.headers['from'][0].split(';')[0][1:-1]).username
             if not (message.code == 200 and message.headers['cseq'][0].endswith('CANCEL')):
                 self.sendMessage(URL(host=self.accounts[username_from][0], port=self.accounts[username_from][1]), message)
 
+            # logovanie
             if message.code in [603, 486]:
                 username_to = parseURL(message.headers['to'][0].split(';')[0][1:-1]).username
                 log_message = str(statusCodes[message.code]) + ', Call-ID: %s, From: %s, To: %s'

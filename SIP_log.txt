@@ -1,0 +1,109 @@
+2022-03-01 14:54:59,351 INFO - INVITE, Call-ID: YteMvoTgOB, From: samuel, To: eduard
+2022-03-01 14:55:03,171 INFO - Start of a call, Call-ID: YteMvoTgOB, From: samuel, To: eduard
+2022-03-01 14:55:11,454 INFO - End of a call, Call-ID: YteMvoTgOB, From: samuel, To: eduard
+2022-03-01 14:58:04,492 ERROR - Temporarily Unavailable, Call-ID: 3Iw5~tKvxS, From: samuel, To: albert
+2022-03-01 15:28:30,240 INFO - INVITE, Call-ID: uanK1gnAc4, From: eduard, To: samuel
+2022-03-01 15:28:32,569 INFO - Start of a call, Call-ID: uanK1gnAc4, From: eduard, To: samuel
+2022-03-01 15:28:34,866 INFO - End of a call, Call-ID: uanK1gnAc4, From: samuel, To: eduard
+2022-03-01 15:30:43,773 INFO - INVITE, Call-ID: F-YEHHwPjW, From: eduard, To: samuel
+2022-03-01 15:30:46,616 INFO - Start of a call, Call-ID: F-YEHHwPjW, From: eduard, To: samuel
+2022-03-01 15:31:01,624 INFO - INVITE, Call-ID: F-YEHHwPjW, From: eduard, To: samuel
+2022-03-01 15:31:01,657 INFO - INVITE, Call-ID: x5fQ-VuF4X, From: eduard, To: albert
+2022-03-01 15:31:01,661 INFO - Start of a call, Call-ID: F-YEHHwPjW, From: eduard, To: samuel
+2022-03-01 15:31:06,481 INFO - Start of a call, Call-ID: x5fQ-VuF4X, From: eduard, To: albert
+2022-03-01 15:31:14,497 INFO - INVITE, Call-ID: x5fQ-VuF4X, From: eduard, To: albert
+2022-03-01 15:31:14,532 INFO - Start of a call, Call-ID: x5fQ-VuF4X, From: eduard, To: albert
+2022-03-01 15:31:15,041 INFO - Start of a call, Call-ID: x5fQ-VuF4X, From: eduard, To: albert
+2022-03-01 15:31:15,096 INFO - INVITE, Call-ID: F-YEHHwPjW, From: eduard, To: samuel
+2022-03-01 15:31:15,109 INFO - Start of a call, Call-ID: F-YEHHwPjW, From: eduard, To: samuel
+2022-03-01 15:31:50,393 INFO - End of a call, Call-ID: x5fQ-VuF4X, From: albert, To: eduard
+2022-03-01 15:31:50,618 INFO - INVITE, Call-ID: F-YEHHwPjW, From: eduard, To: samuel
+2022-03-01 15:31:50,640 INFO - Start of a call, Call-ID: F-YEHHwPjW, From: eduard, To: samuel
+2022-03-01 15:31:51,135 INFO - Start of a call, Call-ID: F-YEHHwPjW, From: eduard, To: samuel
+2022-03-01 15:31:55,265 INFO - End of a call, Call-ID: F-YEHHwPjW, From: eduard, To: samuel
+2022-03-01 15:33:09,970 INFO - INVITE, Call-ID: iw2gBxzIA2, From: eduard, To: samuel
+2022-03-01 15:33:12,253 INFO - Start of a call, Call-ID: iw2gBxzIA2, From: eduard, To: samuel
+2022-03-01 15:33:27,423 INFO - INVITE, Call-ID: iw2gBxzIA2, From: eduard, To: samuel
+2022-03-01 15:33:27,430 INFO - Start of a call, Call-ID: iw2gBxzIA2, From: eduard, To: samuel
+2022-03-01 15:33:27,471 INFO - INVITE, Call-ID: NDAWeEAiVO, From: eduard, To: albert
+2022-03-01 15:33:31,541 INFO - Start of a call, Call-ID: NDAWeEAiVO, From: eduard, To: albert
+2022-03-01 15:33:39,902 INFO - INVITE, Call-ID: NDAWeEAiVO, From: eduard, To: albert
+2022-03-01 15:33:39,938 INFO - Start of a call, Call-ID: NDAWeEAiVO, From: eduard, To: albert
+2022-03-01 15:33:40,311 INFO - INVITE, Call-ID: iw2gBxzIA2, From: eduard, To: samuel
+2022-03-01 15:33:40,332 INFO - Start of a call, Call-ID: iw2gBxzIA2, From: eduard, To: samuel
+2022-03-01 15:33:41,591 INFO - Start of a call, Call-ID: iw2gBxzIA2, From: eduard, To: samuel
+2022-03-01 15:33:50,929 INFO - End of a call, Call-ID: iw2gBxzIA2, From: samuel, To: eduard
+2022-03-01 15:33:51,153 INFO - INVITE, Call-ID: NDAWeEAiVO, From: eduard, To: albert
+2022-03-01 15:33:51,191 INFO - Start of a call, Call-ID: NDAWeEAiVO, From: eduard, To: albert
+2022-03-01 15:33:53,145 INFO - End of a call, Call-ID: NDAWeEAiVO, From: eduard, To: albert
+2022-03-01 15:34:33,098 INFO - INVITE, Call-ID: 57u8xxVb0y, From: samuel, To: eduard
+2022-03-01 15:34:37,947 INFO - CANCEL, Call-ID: 57u8xxVb0y, From: samuel, To: eduard
+2022-03-01 15:36:41,891 INFO - INVITE, Call-ID: 8G8VVgr~V8, From: samuel, To: eduard
+2022-03-01 15:36:43,629 INFO - Start of a call, Call-ID: 8G8VVgr~V8, From: samuel, To: eduard
+2022-03-01 15:36:51,918 INFO - INVITE, Call-ID: 8G8VVgr~V8, From: samuel, To: eduard
+2022-03-01 15:36:51,951 INFO - INVITE, Call-ID: 2PO8PAg~kS, From: samuel, To: albert
+2022-03-01 15:36:51,977 INFO - Start of a call, Call-ID: 8G8VVgr~V8, From: samuel, To: eduard
+2022-03-01 15:36:56,445 INFO - Start of a call, Call-ID: 2PO8PAg~kS, From: samuel, To: albert
+2022-03-01 15:37:00,686 INFO - End of a call, Call-ID: 2PO8PAg~kS, From: samuel, To: albert
+2022-03-01 15:37:05,469 INFO - End of a call, Call-ID: 8G8VVgr~V8, From: samuel, To: eduard
+2022-03-01 15:38:38,467 INFO - INVITE, Call-ID: xJ1kuvwCQB, From: samuel, To: eduard
+2022-03-01 15:38:40,151 INFO - Start of a call, Call-ID: xJ1kuvwCQB, From: samuel, To: eduard
+2022-03-01 15:38:48,119 INFO - INVITE, Call-ID: xJ1kuvwCQB, From: samuel, To: eduard
+2022-03-01 15:38:48,153 INFO - INVITE, Call-ID: 9toluEjO6K, From: samuel, To: samuel
+2022-03-01 15:38:48,331 INFO - Start of a call, Call-ID: xJ1kuvwCQB, From: samuel, To: eduard
+2022-03-01 15:38:48,860 INFO - Start of a call, Call-ID: xJ1kuvwCQB, From: samuel, To: eduard
+2022-03-01 15:38:52,018 INFO - Declined, Call-ID: 9toluEjO6K, From: samuel, To: samuel
+2022-03-01 15:39:00,559 INFO - End of a call, Call-ID: xJ1kuvwCQB, From: samuel, To: eduard
+2022-03-01 15:39:52,637 INFO - INVITE, Call-ID: wFweGYjr5P, From: samuel, To: eduard
+2022-03-01 15:39:54,431 INFO - Start of a call, Call-ID: wFweGYjr5P, From: samuel, To: eduard
+2022-03-01 15:39:59,748 INFO - INVITE, Call-ID: wFweGYjr5P, From: samuel, To: eduard
+2022-03-01 15:39:59,781 INFO - INVITE, Call-ID: LG-Fiy2e79, From: samuel, To: albert
+2022-03-01 15:39:59,835 INFO - Start of a call, Call-ID: wFweGYjr5P, From: samuel, To: eduard
+2022-03-01 15:40:03,308 INFO - Start of a call, Call-ID: LG-Fiy2e79, From: samuel, To: albert
+2022-03-01 15:40:23,818 INFO - INVITE, Call-ID: wFweGYjr5P, From: samuel, To: eduard
+2022-03-01 15:40:23,877 INFO - INVITE, Call-ID: LG-Fiy2e79, From: samuel, To: albert
+2022-03-01 15:40:23,924 INFO - Start of a call, Call-ID: LG-Fiy2e79, From: samuel, To: albert
+2022-03-01 15:40:23,931 INFO - Start of a call, Call-ID: wFweGYjr5P, From: samuel, To: eduard
+2022-03-01 15:40:34,388 INFO - End of a call, Call-ID: wFweGYjr5P, From: samuel, To: eduard
+2022-03-01 15:40:34,426 INFO - End of a call, Call-ID: LG-Fiy2e79, From: samuel, To: albert
+2022-03-01 16:17:26,090 INFO - INVITE, Call-ID: Mp5rVbm6uN, From: samuel, To: martin
+2022-03-01 16:17:27,712 INFO - Declined, Call-ID: Mp5rVbm6uN, From: samuel, To: martin
+2022-03-01 16:17:38,010 INFO - INVITE, Call-ID: i95NKz0yiy, From: samuel, To: martin
+2022-03-01 16:17:39,940 INFO - Start of a call, Call-ID: i95NKz0yiy, From: samuel, To: martin
+2022-03-01 16:17:43,149 INFO - End of a call, Call-ID: i95NKz0yiy, From: martin, To: samuel
+2022-03-01 16:17:51,771 INFO - INVITE, Call-ID: P7iRsSnwpp, From: samuel, To: martin
+2022-03-01 16:17:53,327 INFO - Start of a call, Call-ID: P7iRsSnwpp, From: samuel, To: martin
+2022-03-01 16:17:55,983 INFO - End of a call, Call-ID: P7iRsSnwpp, From: martin, To: samuel
+2022-03-01 17:00:33,724 ERROR - Temporarily Unavailable, Call-ID: UfbVNkQJAx, From: samuel, To: klara
+2022-03-01 17:33:34,355 INFO - INVITE, Call-ID: cfhEgLrL2Q, From: martin, To: samuel
+2022-03-01 17:33:57,547 INFO - Declined, Call-ID: cfhEgLrL2Q, From: martin, To: samuel
+2022-03-01 17:34:58,927 INFO - INVITE, Call-ID: 7DPFfyrHzS, From: martin, To: samuel
+2022-03-01 17:35:29,013 INFO - Not answering, Call-ID: 7DPFfyrHzS, From: martin, To: samuel
+2022-03-01 17:43:26,160 INFO - INVITE, Call-ID: gg94IlV9hD, From: samuel, To: eduard
+2022-03-01 17:43:29,086 INFO - Start of a call, Call-ID: gg94IlV9hD, From: samuel, To: eduard
+2022-03-01 17:43:29,812 INFO - Start of a call, Call-ID: gg94IlV9hD, From: samuel, To: eduard
+2022-03-01 17:43:34,358 INFO - INVITE, Call-ID: gg94IlV9hD, From: samuel, To: eduard
+2022-03-01 17:43:34,388 INFO - INVITE, Call-ID: SAEigcYyWJ, From: samuel, To: albert
+2022-03-01 17:43:34,558 INFO - Start of a call, Call-ID: gg94IlV9hD, From: samuel, To: eduard
+2022-03-01 17:43:40,847 INFO - Start of a call, Call-ID: SAEigcYyWJ, From: samuel, To: albert
+2022-03-01 17:43:50,842 INFO - INVITE, Call-ID: gg94IlV9hD, From: samuel, To: eduard
+2022-03-01 17:43:50,881 INFO - INVITE, Call-ID: SAEigcYyWJ, From: samuel, To: albert
+2022-03-01 17:43:50,923 INFO - Start of a call, Call-ID: SAEigcYyWJ, From: samuel, To: albert
+2022-03-01 17:43:51,121 INFO - Start of a call, Call-ID: gg94IlV9hD, From: samuel, To: eduard
+2022-03-01 17:43:56,855 INFO - End of a call, Call-ID: gg94IlV9hD, From: samuel, To: eduard
+2022-03-01 17:43:56,880 INFO - End of a call, Call-ID: SAEigcYyWJ, From: samuel, To: albert
+2022-03-01 17:45:44,534 INFO - INVITE, Call-ID: r18I1rfZP6, From: samuel, To: eduard
+2022-03-01 17:45:46,141 INFO - Start of a call, Call-ID: r18I1rfZP6, From: samuel, To: eduard
+2022-03-01 17:45:50,900 INFO - INVITE, Call-ID: r18I1rfZP6, From: samuel, To: eduard
+2022-03-01 17:45:50,930 INFO - INVITE, Call-ID: vp0xg8NT2u, From: samuel, To: albert
+2022-03-01 17:45:50,964 INFO - Start of a call, Call-ID: r18I1rfZP6, From: samuel, To: eduard
+2022-03-01 17:45:54,056 INFO - Start of a call, Call-ID: vp0xg8NT2u, From: samuel, To: albert
+2022-03-01 17:46:03,071 INFO - INVITE, Call-ID: r18I1rfZP6, From: samuel, To: eduard
+2022-03-01 17:46:03,111 INFO - INVITE, Call-ID: vp0xg8NT2u, From: samuel, To: albert
+2022-03-01 17:46:03,186 INFO - Start of a call, Call-ID: r18I1rfZP6, From: samuel, To: eduard
+2022-03-01 17:46:03,192 INFO - Start of a call, Call-ID: vp0xg8NT2u, From: samuel, To: albert
+2022-03-01 17:46:03,647 INFO - Start of a call, Call-ID: vp0xg8NT2u, From: samuel, To: albert
+2022-03-01 17:46:11,387 INFO - End of a call, Call-ID: r18I1rfZP6, From: eduard, To: samuel
+2022-03-01 17:46:11,421 INFO - INVITE, Call-ID: vp0xg8NT2u, From: samuel, To: albert
+2022-03-01 17:46:11,494 INFO - Start of a call, Call-ID: vp0xg8NT2u, From: samuel, To: albert
+2022-03-01 17:46:15,251 INFO - End of a call, Call-ID: vp0xg8NT2u, From: samuel, To: albert
